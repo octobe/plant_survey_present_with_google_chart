@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>植物選單</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <label for="plantSelector">選擇植物：</label>
+  <select id="plantSelector" onchange="loadData('chart1')"></select>
+  <label for="yearSelector1">選擇年份：</label>
+  <select id="yearSelector1" onchange="loadData('chart1')"></select>
+  <div id="result1"></div>
+  <div id="chartContainer1" class="chart"></div>
+  <button onclick="addNewChart()">新增圖表</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

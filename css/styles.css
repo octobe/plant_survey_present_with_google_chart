@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 8px;
+  width: auto;
+  font-size: 1em;
+}
+
+.chart {
+  width: 80%;
+  height: 400px;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1em;
+}
+
